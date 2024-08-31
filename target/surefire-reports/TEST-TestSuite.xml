@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="7" name="TestSuite" time="2.272" errors="0" skipped="11">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="20.0.2+9-78"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\zaman\eclipse-workspace\Automation"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\zaman\eclipse-workspace\Automation"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="20.0.2+9-78"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\zaman\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="cp437"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Program Files\MAVEN\apache-maven-3.8.8\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/zaman/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951/jre/bin/server;C:/Users/zaman/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.8.v20230801-1951/jre/bin;C:\Program Files\Python312\Scripts\;C:\Program Files\Python312\;C:\Ruby32-x64\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Git\cmd;C:\Program Files\MAVEN\apache-maven-3.8.8\bin;C:\Program Files\MAVEN\allure-2.24.0\bin;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Users\zaman\AppData\Roaming\Python\Python312\Scripts;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\MAVEN\apache-maven-3.8.8\bin;C:\Users\zaman\AppData\Local\Microsoft\WindowsApps;C:\Users\zaman\AppData\Roaming\npm;C:\Users\zaman\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;;C:\Users\zaman\AppData\Local\Programs\Python\Python312;;C:\Users\zaman\OneDrive\Desktop;;."/>
+    <property name="maven.conf" value="C:\Program Files\MAVEN\apache-maven-3.8.8/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="64.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\MAVEN\apache-maven-3.8.8\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\zaman"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="20"/>
+    <property name="user.name" value="zaman"/>
+    <property name="java.class.path" value="C:\Program Files\MAVEN\apache-maven-3.8.8\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="20.0.2"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\MAVEN\apache-maven-3.8.8"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-07-18"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="tearUp" time="2.237">
+    <failure message="The path to the driver executable Unable to locate the chromedriver executable; for more information on how to install drivers, see https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The path to the driver executable Unable to locate the chromedriver executable; for more information on how to install drivers, see https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:33)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:73)
+	at com.SeleniumTest.Automation.LocatorsTest.tearUp(LocatorsTest.java:39)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@36d4b5c
+</system-out>
+    <system-err>SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+May 28, 2024 9:16:22 PM org.openqa.selenium.remote.service.DriverFinder getPath
+WARNING: Unable to obtain chromedriver using Selenium Manager: Unsuccessful command executed: [C:\Users\zaman\AppData\Local\Temp\selenium-manager2336208540640013814463449165510372\selenium-manager.exe, --browser, chrome, --output, json]
+The chromedriver version cannot be discovered
+Build info: version: &apos;4.9.0&apos;, revision: &apos;d7057100a6&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20.0.2&apos;
+Driver info: driver.version: ChromeDriver
+</system-err>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="alrtHndl" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="tearUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="lgn" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="tearUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="locatorsTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="tearUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="multiPleWindows" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="tearUp" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="windowHndl" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="tearUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.LocatorsTest" name="hoverOvers" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.TestNG_DP" name="dataTable" time="0.007">
+    <failure message="The driver executable must exist: C:\MY_WORKS\Framework\Drivers\chromedriver.exe" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable must exist: C:\MY_WORKS\Framework\Drivers\chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:39)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:52)
+	at com.SeleniumTest.Automation.TestNG_DP.dataTable(TestNG_DP.java:50)
+</failure>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.TestNG_DP" name="dpTest" time="0.011">
+    <failure message="
+[public void com.SeleniumTest.Automation.TestNG_DP.dpTest(int,int)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: dpTest([int arg0, int arg1])
+Arguments: [(java.lang.Integer) 1,(java.lang.Integer) 2,(java.lang.Integer) 3]" type="org.testng.internal.reflect.MethodMatcherException">org.testng.internal.reflect.MethodMatcherException: 
+[public void com.SeleniumTest.Automation.TestNG_DP.dpTest(int,int)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: dpTest([int arg0, int arg1])
+Arguments: [(java.lang.Integer) 1,(java.lang.Integer) 2,(java.lang.Integer) 3]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:909)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:37)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.TestNG_DP" name="loginTest" time="0.004">
+    <failure message="The driver executable must exist: C:\MY_WORKS\Framework\Drivers\chromedriver.exe" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable must exist: C:\MY_WORKS\Framework\Drivers\chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:39)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:52)
+	at com.SeleniumTest.Automation.TestNG_DP.loginTest(TestNG_DP.java:27)
+</failure>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.TestNG_DP" name="loginTest" time="0.003">
+    <failure message="The driver executable must exist: C:\MY_WORKS\Framework\Drivers\chromedriver.exe" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable must exist: C:\MY_WORKS\Framework\Drivers\chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:39)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:52)
+	at com.SeleniumTest.Automation.TestNG_DP.loginTest(TestNG_DP.java:27)
+</failure>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.TestNG_DP" name="loginTest" time="0.003">
+    <failure message="The driver executable must exist: C:\MY_WORKS\Framework\Drivers\chromedriver.exe" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable must exist: C:\MY_WORKS\Framework\Drivers\chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:39)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:52)
+	at com.SeleniumTest.Automation.TestNG_DP.loginTest(TestNG_DP.java:27)
+</failure>
+  </testcase>
+  <testcase classname="com.SeleniumTest.Automation.TestNG_DP" name="loginTest" time="0.003">
+    <failure message="The driver executable must exist: C:\MY_WORKS\Framework\Drivers\chromedriver.exe" type="java.lang.IllegalStateException">java.lang.IllegalStateException: The driver executable must exist: C:\MY_WORKS\Framework\Drivers\chromedriver.exe
+	at org.openqa.selenium.internal.Require$FileStateChecker.isFile(Require.java:345)
+	at org.openqa.selenium.remote.service.DriverFinder.getPath(DriverFinder.java:39)
+	at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:98)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:84)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:52)
+	at com.SeleniumTest.Automation.TestNG_DP.loginTest(TestNG_DP.java:27)
+</failure>
+  </testcase>
+</testsuite>
